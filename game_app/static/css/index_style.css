@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+div.col {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+h1 {
+    color: #ecea02;
+}
+
+div.game_row {
+    height: 20px;
+}
+
+div.game_row div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+div.brick {
+    background: rgb(12,15,68);
+    background: linear-gradient(0deg, rgba(12,15,68,1) 0%, rgba(22,25,100,1) 58%);
+}
+
+div.coin {
+    background: url('/static/img/coin.gif');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+div#pacman {
+    background: url('/static/img/pacman.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div.empty {
+    display: inline-block;
+}
+
+div#score {
+    border: 3px solid white;
+    height: 55px;
+    width: 70px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
